@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    text-decoration: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-right: 8vw;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#ww {
+    padding-top: 22px;
+}
+
+.md {
+    position: absolute;
+    margin-top: -950px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    margin-left: 1400px;
+    padding-left: 17px;
+    cursor: pointer;
+}
+
+.mde {
+    position: absolute;
+    margin-top: -100px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin-left: 1400px;
+    padding-left: 17px;
+    cursor: pointer;
+}
+
+.md a {
+    color: white;
+    text-decoration: none;
+}
+
+.mde a {
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 2vw;
+    }
+    #header {
+        font-size: 2vw;
+    }
+    .md {
+        position: absolute;
+        margin-top: -600px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        margin-left: 0;
+        padding-left: 17px;
+        cursor: pointer;
+    }
+    .mde {
+        position: absolute;
+        margin-top: -100px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        margin-left: 0px;
+        padding-left: 17px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 1vw;
+    }
+    #header {
+        font-size: 1vw;
+    }
+    .md {
+        position: absolute;
+        margin-top: -360px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        margin-left: 0;
+        padding-left: 17px;
+        cursor: pointer;
+    }
+    .mde {
+        position: absolute;
+        margin-top: -70px;
+        padding: 10px;
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        margin-left: 0px;
+        padding-left: 17px;
+        cursor: pointer;
+    }
+}

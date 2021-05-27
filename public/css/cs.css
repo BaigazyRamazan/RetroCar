@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-right: 8vw;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    font-size: 26px;
+}
+
+#ww {
+    padding-top: 22px;
+}
+
+#secondpage h1 {
+    position: absolute;
+    color: white;
+    margin-top: -55px;
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+#secondpage p {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 100px;
+    font-size: 15px;
+}
+
+#secondpage h5 {
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 800px;
+    font-size: 15px;
+}
+
+#secondpage h3 {
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 800px;
+}
+
+#secondpage form {
+    margin-top: 210px;
+    margin-left: 800px;
+}
+
+#secondpage button {
+    background-color: white;
+    color: black;
+}
+
+#map {
+    margin-left: 800px;
+    margin-top: 180px;
+    width: 400px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 2vw;
+    }
+    #header {
+        font-size: 2vw;
+    }
+    h1 {
+        font-size: 1vw;
+    }
+    p {
+        font-size: 1vw;
+    }
+    h6 {
+        font-size: 2vw;
+        ;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 1vw;
+    }
+    #header {
+        font-size: 1vw;
+    }
+    #header div {
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 1vw;
+    }
+    h5 {
+        font-size: 1vw;
+    }
+    #secondpage h5 {
+        margin-top: 600px;
+        position: absolute;
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    #map {
+        margin-left: 0;
+        margin-top: 800px;
+        width: 100%;
+        height: 300px;
+    }
+}
